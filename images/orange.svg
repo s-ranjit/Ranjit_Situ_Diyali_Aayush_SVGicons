@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277.5 334.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #158c1b;
+      }
+
+      .cls-2 {
+        fill: #dd7814;
+      }
+
+      .cls-3 {
+        fill: #dd7812;
+      }
+
+      .cls-4 {
+        fill: #f7931e;
+      }
+
+      .cls-5 {
+        fill: #9b6105;
+      }
+    </style>
+  </defs>
+  <g id="leaf">
+    <path class="cls-1" d="M16.41,16.98s45.53,82.72,122.5,50.05c0,0-38.73-60.79-122.5-50.05Z"/>
+    <path class="cls-1" d="M253.43,3.3s-75.49-11.45-99.41,63.3c0,0,58.46,4.51,99.41-63.3Z"/>
+    <path class="cls-5" d="M137.43,66.55s5.56-48.07,23.3-64.19c2.86-2.6,6.97-3.24,10.03-.94,2.6,1.96,4.34,5.87.87,13.7-6.94,15.66-15.46,41.65-17.2,51.43h-17Z"/>
+  </g>
+  <g id="circle_orange">
+    <circle class="cls-3" cx="129" cy="200.76" r="129"/>
+    <circle class="cls-4" cx="143.5" cy="200.26" r="134"/>
+    <circle class="cls-2" cx="134.38" cy="309.26" r="5.5"/>
+    <circle class="cls-2" cx="153.62" cy="309.26" r="5.5"/>
+    <circle class="cls-2" cx="144" cy="320.26" r="5.5"/>
+  </g>
+</svg>
