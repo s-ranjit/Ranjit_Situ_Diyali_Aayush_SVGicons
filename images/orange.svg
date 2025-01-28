@@ -21,7 +21,24 @@
       .cls-5 {
         fill: #9b6105;
       }
+
+      #circle_orange {
+      transition: transform 2s;
+      }
+
+      #circle_orange:hover{
+      transform: translateY(50px);
+      }
     </style>
+
+       <script>
+      const orange = document.querySelector("#orange");
+
+      function logId() {
+	    console.log(this.id)
+      }
+      orange.addEventListener("click", logId);
+      </script>
   </defs>
   <g id="leaf">
     <path class="cls-1" d="M16.41,16.98s45.53,82.72,122.5,50.05c0,0-38.73-60.79-122.5-50.05Z"/>
