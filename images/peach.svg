@@ -21,7 +21,20 @@
       .cls-5 {
         fill: #d86e5d;
       }
+      #peach:hover {
+        transform: rotate(360deg);
+        transition: transform 1s;
+        transform-origin: center;
+      }
     </style>
+    <script>
+      const peach = document.querySelector("#peach");
+
+      function logId() {
+        console.log(this.id)
+      }
+      peach.addEventListener("click", logId)
+    </script>
   </defs>
   <g id="peach">
     <path id="peachstem" class="cls-4" d="M246,30.6l2.38,48.1s-7.09-1.58-18.12-7.09l-4.6-49.81c-.81-8.32,3.47-16.45,10.99-20.1,4.46-2.17,9.93-2.74,15.95,1.09,1.94,1.23,3.05,3.44,2.87,5.73-.32,4.13-1.68,10.99-6.92,15.8-1.76,1.61-2.73,3.9-2.56,6.28Z"/>
