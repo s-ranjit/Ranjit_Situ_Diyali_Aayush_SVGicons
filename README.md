@@ -1,14 +1,14 @@
 # Ranjit_Situ_Diyali_Aayush_SVGicons
 
-**This Repo is for Interactive SVGicons Project**
+**This Repo is for Interactive SVGicons assignment**
 
 ## Installation
-No istallation needed. Just download the zip file, unzip it, and open the index file in a browser of your choice.
+No installation needed. Just download the zip file, unzip it, and open the index file in a browser of your choice.
 
 ## Usage
 Open the index file in your browser of choice.
 
-## Contribuing
+## Contributing
 - Fork it!
 - Create your feature branch: git checkout -b my-new-feature
 - Commit your changes: git commit -am 'Add some feature'
