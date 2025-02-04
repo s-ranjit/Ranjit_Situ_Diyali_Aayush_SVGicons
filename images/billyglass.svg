@@ -13,7 +13,25 @@
       .cls-3 {
         fill: #ffc200;
       }
+      #billyglass {
+  transform: rotate(0deg);
+  transition: transform 0.1s ease-in-out;
+}
+
+#billyglass:hover {
+  transform: rotate(5deg);
+  transform: translateY(-10px);
+}
     </style>
+    <script>
+    const billyglass = document.querySelector("#billyglass");
+
+    function logId() {
+	  console.log(this.id)
+    }
+
+    billyglass.addEventListener("click", logId);
+    </script>
   </defs>
   <path class="cls-1" d="M220.82,189.83v-87.29c-.83-23.99-47.57-17.38-47.57-17.38v13.86c13.85.03,33.15,2.24,33.68,14.2v68.08s.66,18.78-33.68,16.6v10.95c48.4,11.17,47.57-19.03,47.57-19.03Z"/>
   <rect id="glass" class="cls-3" x="19.5" y="46.98" width="155.74" height="201.7" rx="12" ry="12"/>

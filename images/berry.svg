@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 548 297">
+<svg id="berry" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 548 297">
   <defs>
     <style>
       .cls-1 {
@@ -29,7 +29,22 @@
       .cls-7 {
         fill: #451296;
       }
+       #berry:hover #left_berryleaf .cls-4 {
+      fill: #521ca0;
+    }
+     #berry:hover #right_berryleaf .cls-2 {
+      fill: #ff7bf9;
+    }
     </style>
+       <script>
+    const berry = document.querySelector("#berry");
+
+    function logId() {
+	  console.log(this.id)
+    }
+
+    berry.addEventListener("click", logId);
+    </script>
   </defs>
   <g id="leftberry">
     <circle class="cls-5" cx="136" cy="136" r="136"/>

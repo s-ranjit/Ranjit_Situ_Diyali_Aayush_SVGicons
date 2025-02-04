@@ -28,12 +28,13 @@
       }
     </style>
     <script>
-      const peach = document.querySelector("#peach");
+    const peach = document.querySelector("#peach");
 
-      function logId() {
-        console.log(this.id)
-      }
-      peach.addEventListener("click", logId)
+    function logId() {
+	  console.log(this.id)
+    }
+
+    peach.addEventListener("click", logId);
     </script>
   </defs>
   <g id="peach">
