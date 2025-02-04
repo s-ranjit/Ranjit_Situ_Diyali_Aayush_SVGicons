@@ -23,7 +23,7 @@
       }
 
       #circle_orange {
-      transition: transform 2s;
+      transition: transform 1s;
       }
 
       #circle_orange:hover{
