@@ -5,7 +5,27 @@
       .cls-1 {
         fill: #edc10a;
       }
+      #wheat_left, #wheat_right {
+        transition: transform 0.5s ease-in;
+        transform-origin: center;
+      }
+      #wheat:hover #wheat_left {
+      transform: translateY(50px) rotate(-90deg);
+      }
+      #wheat:hover #wheat_right {
+      transform: translateY(50px) rotate(90deg);
+      }
     </style>
+     <script>
+    const wheat = document.querySelector("#wheat");
+
+    function logId() {
+	  console.log(this.id)
+    }
+
+    wheat.addEventListener("click", logId);
+    </script>
+
   </defs>
   <g id="wheat_left">
     <path class="cls-1" d="M30.57,43s-28.43,27.83,0,55.32c0,0,26.89-24.6,0-55.32Z"/>
