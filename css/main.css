@@ -1,3 +1,22 @@
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 object {
     width: 10%;
 }
+.first-row, .second-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 70px 0px;
+}
+.svg {
+    width: 15%;
+}
+
